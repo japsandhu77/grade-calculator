@@ -3,3 +3,16 @@ mark2 = float(input("Enter the second mark: "))
 
 average = (mark1 + mark2) / 2
 print(f"Average: {average:.1f}%")
+
+if average >= 90:
+    grade = "A"
+elif average >= 80:
+    grade = "B"
+elif average >= 70:
+    grade = "C"
+elif average >= 60:
+    grade = "D"
+else:
+    grade = "F"
+
+print(f"Letter grade: {grade}")
