@@ -1,3 +1,4 @@
+print("Student Grade Calculator")
 mark1 = float(input("Enter the first mark: "))
 mark2 = float(input("Enter the second mark: "))
 if not (0 <= mark1 <= 100 and 0 <= mark2 <= 100):
